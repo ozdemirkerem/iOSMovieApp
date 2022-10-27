@@ -33,9 +33,6 @@
 		6381B6F729072DBC00829010 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6381B6F629072DBC00829010 /* MovieModel.swift */; };
 		6381B6FE29086D6800829010 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6381B6FC29086D6800829010 /* MovieTableViewCell.swift */; };
 		6381B6FF29086D6800829010 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6381B6FD29086D6800829010 /* MovieTableViewCell.xib */; };
-		63987407290988C500C236AF /* GIFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63987406290988C400C236AF /* GIFImage.swift */; };
-		6398740929098CD900C236AF /* indicator.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6398740829098CD800C236AF /* indicator.gif */; };
-		6398740B2909973D00C236AF /* CustomLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398740A2909973C00C236AF /* CustomLoadingIndicator.swift */; };
 		639874112909A95100C236AF /* IHProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 639874102909A95100C236AF /* IHProgressHUD */; };
 /* End PBXBuildFile section */
 
@@ -83,9 +80,6 @@
 		6381B6F629072DBC00829010 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		6381B6FC29086D6800829010 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		6381B6FD29086D6800829010 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
-		63987406290988C400C236AF /* GIFImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFImage.swift; sourceTree = "<group>"; };
-		6398740829098CD800C236AF /* indicator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = indicator.gif; sourceTree = "<group>"; };
-		6398740A2909973C00C236AF /* CustomLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +144,6 @@
 				6303FB832905ACFE00D43A59 /* Constants.swift */,
 				6303FB8F2905E2AE00D43A59 /* SplashViewController.swift */,
 				6303FB592904914100D43A59 /* Main.storyboard */,
-				63241B2A2908A2E000CD4479 /* LoadingIndicator */,
 				6303FB5C2904914300D43A59 /* Assets.xcassets */,
 				6303FB852905B1BE00D43A59 /* GoogleService-Info.plist */,
 				6303FB612904914300D43A59 /* Info.plist */,
@@ -191,16 +184,6 @@
 				63241B262908A13600CD4479 /* MovieDetailParseOperation.swift */,
 			);
 			path = ParseOperation;
-			sourceTree = "<group>";
-		};
-		63241B2A2908A2E000CD4479 /* LoadingIndicator */ = {
-			isa = PBXGroup;
-			children = (
-				6398740829098CD800C236AF /* indicator.gif */,
-				63987406290988C400C236AF /* GIFImage.swift */,
-				6398740A2909973C00C236AF /* CustomLoadingIndicator.swift */,
-			);
-			path = LoadingIndicator;
 			sourceTree = "<group>";
 		};
 		63241B2B2908A6A200CD4479 /* MovieDetailView */ = {
@@ -357,7 +340,6 @@
 				6381B6F02906E39E00829010 /* Roboto-Light.ttf in Resources */,
 				6303FB5B2904914100D43A59 /* Main.storyboard in Resources */,
 				6381B6F12906E39E00829010 /* Roboto-Bold.ttf in Resources */,
-				6398740929098CD900C236AF /* indicator.gif in Resources */,
 				6303FB862905B1BE00D43A59 /* GoogleService-Info.plist in Resources */,
 				6381B6FF29086D6800829010 /* MovieTableViewCell.xib in Resources */,
 			);
@@ -389,11 +371,9 @@
 				6381B6F529070F5700829010 /* MovieSearchParseOperation.swift in Sources */,
 				6381B6FE29086D6800829010 /* MovieTableViewCell.swift in Sources */,
 				6303FB582904914100D43A59 /* HomeViewController.swift in Sources */,
-				63987407290988C500C236AF /* GIFImage.swift in Sources */,
 				63241B272908A13600CD4479 /* MovieDetailParseOperation.swift in Sources */,
 				6303FB542904914100D43A59 /* AppDelegate.swift in Sources */,
 				6303FB842905ACFE00D43A59 /* Constants.swift in Sources */,
-				6398740B2909973D00C236AF /* CustomLoadingIndicator.swift in Sources */,
 				6303FB902905E2AE00D43A59 /* SplashViewController.swift in Sources */,
 				63241B2D2908A6C800CD4479 /* MovieDetailView.swift in Sources */,
 			);

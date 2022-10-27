@@ -8,5 +8,5 @@
 import Foundation
 
 let API_HOST : String = "http://www.omdbapi.com/?apikey="
-let API_KEY : String = "YOURKEY"
+let API_KEY : String = "YOURAPIKEY"
 
